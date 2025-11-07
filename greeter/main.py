@@ -5,7 +5,7 @@ from gpiozero.pins.lgpio import LGPIOFactory
 Device.pin_factory = LGPIOFactory()
 
 # BCM pin numbers
-PIR_PIN = 4
+PIR_PIN = 21
 MOTION_LED_PIN = 17
 IDLE_LED_PIN = 26
 

@@ -1,5 +1,8 @@
-from gpiozero import MotionSensor, LED
+from gpiozero import MotionSensor, LED, Device
 from signal import pause
+
+from gpiozero.pins.lgpio import LGPIOFactory
+Device.pin_factory = LGPIOFactory()
 
 # BCM pin numbers
 PIR_PIN = 4
